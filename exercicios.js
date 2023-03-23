@@ -16,6 +16,8 @@ function imprimeMensagem() {
 
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
+// 
+
 // EXERCÍCIO 01
 function calculaAreaRetangulo(altura, largura) {
   // implemente sua lógica aqui
@@ -80,7 +82,7 @@ function imprimeTresCoresFavoritas() {
   const cor3 = prompt("Poderia me dizer a terceira também?")
 
   const coresFavoritas = [cor1, cor2, cor3]
-  console.log(coresFavoritas.join(' '))
+  console.log(coresFavoritas)
 }
 
 imprimeTresCoresFavoritas()
@@ -91,7 +93,7 @@ function retornaStringEmMaiuscula(string) {
 
   string = prompt("escreva qualquer coisa aqui em letra minúscula")
 
-  return `Isso é o que você escreveu em letra, mas agora em letra maiúscula ${string.toUpperCase()}`
+  return `Isso é o que você escreveu em letra minúscula: ${string}, agora em letra maiúscula ${string.toUpperCase()}`
 }
 
 console.log(retornaStringEmMaiuscula())
